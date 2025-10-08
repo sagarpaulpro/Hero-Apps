@@ -1,0 +1,218 @@
+[
+  {
+    "image": "https://play-lh.googleusercontent.com/1-hPxafOxdYpYZEOKzNIkSP43HXCNftVJVttoo4ucl7rsMASXW3Xr6GlXURCubE1tA",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 1,
+    "description": "Get the official YouTube app for Android phones and tablets. See what the world is watching from the hottest music videos to what's popular in gaming, fashion, beauty, news, learning and more.",
+    "size": 78,
+    "reviews": 98765000,
+    "ratingAvg": 4.4,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1975000 },
+      { "name": "2 star", "count": 987000 },
+      { "name": "3 star", "count": 9870000 },
+      { "name": "4 star", "count": 19740000 },
+      { "name": "5 star", "count": 67200000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/lMoItBgdPPVDJsNOVtP26EKHePkwBg-PkuY9NOrc-fumRtTFP4XhpUNk_22syN4Datc",
+    "title": "Netflix",
+    "companyName": "Netflix, Inc.",
+    "id": 2,
+    "description": "Watch TV shows and movies recommended just for you, including award-winning Netflix original series, movies, and documentaries.",
+    "size": 67,
+    "reviews": 65432000,
+    "ratingAvg": 4.6,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 654000 },
+      { "name": "2 star", "count": 327000 },
+      { "name": "3 star", "count": 3270000 },
+      { "name": "4 star", "count": 13080000 },
+      { "name": "5 star", "count": 48150000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/PCpXdbfUWxCWdDlET0C2xiK1PpRQqTp13h0X5t8yhcCA-DDZ7c6ep2qq73cO7q0mCw",
+    "title": "Zoom",
+    "companyName": "zoom.us",
+    "id": 3,
+    "description": "Stay connected wherever you go – start or join a secure meeting with flawless video and audio, instant screen sharing, and cross-platform instant messaging.",
+    "size": 234,
+    "reviews": 32145000,
+    "ratingAvg": 4.8,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 321000 },
+      { "name": "2 star", "count": 160000 },
+      { "name": "3 star", "count": 1600000 },
+      { "name": "4 star", "count": 6420000 },
+      { "name": "5 star", "count": 23770000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/7Ak4Ye7wNUtheIvSKnVgGL_O-ZWfzSRyGLg6NBpifUpQk9NLmR_f2L_6dG5S1arCkw",
+    "title": "Spotify: Music and Podcasts",
+    "companyName": "Spotify AB",
+    "id": 4,
+    "description": "With Spotify, you have access to a world of music. You can listen to artists and albums, or create your own playlist of your favorite songs.",
+    "size": 89,
+    "reviews": 29876000,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 298000 },
+      { "name": "2 star", "count": 149000 },
+      { "name": "3 star", "count": 1490000 },
+      { "name": "4 star", "count": 5970000 },
+      { "name": "5 star", "count": 22050000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/aFWiT2lTa9inbAwCVjtm8u4n1z-aRxd1W2g4XN7x-x4xhwg4xZA0t_udkGd-u3jqCw",
+    "title": "Amazon Shopping",
+    "companyName": "Amazon Mobile LLC",
+    "id": 5,
+    "description": "Shop millions of products, manage your orders, track packages, and more with the Amazon app.",
+    "size": 145,
+    "reviews": 54321000,
+    "ratingAvg": 4.0,
+    "downloads": 1500000000,
+    "ratings": [
+      { "name": "1 star", "count": 2710000 },
+      { "name": "2 star", "count": 1630000 },
+      { "name": "3 star", "count": 5430000 },
+      { "name": "4 star", "count": 16290000 },
+      { "name": "5 star", "count": 28300000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/UrY7BAZ-XfXGpfkeWg0zCCeo-7ras4DCoRalCWWXXzK7tQzQuhZ4XCfUEhw3g",
+    "title": "WhatsApp Messenger",
+    "companyName": "WhatsApp Inc",
+    "id": 6,
+    "description": "Simple. Reliable. Secure. With WhatsApp, you'll get fast, simple, secure messaging and calling for free*, available on phones all over the world.",
+    "size": 78,
+    "reviews": 125430000,
+    "ratingAvg": 4.2,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 5020000 },
+      { "name": "2 star", "count": 3765000 },
+      { "name": "3 star", "count": 12550000 },
+      { "name": "4 star", "count": 25100000 },
+      { "name": "5 star", "count": 79420000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/Kf8WTct65hFJxBUDm5E-EpYsiDoLQiGGbnuyP6HBNax43YShXti9THPon1YKB6zPYpA",
+    "title": "Instagram",
+    "companyName": "Instagram",
+    "id": 7,
+    "description": "Connect with friends, share what you're up to, or see what's new from others all over the world.",
+    "size": 56,
+    "reviews": 98765000,
+    "ratingAvg": 4.1,
+    "downloads": 4000000000,
+    "ratings": [
+      { "name": "1 star", "count": 3950000 },
+      { "name": "2 star", "count": 2960000 },
+      { "name": "3 star", "count": 9870000 },
+      { "name": "4 star", "count": 19740000 },
+      { "name": "5 star", "count": 62230000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/jClnXThwYmt6Y0yrY0DG7xMw_cK2Y2WdpbEa2z9fGDkDpXpQp8y-6kF8YhN8y6q1Q",
+    "title": "Facebook",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 8,
+    "description": "Connect with friends and the world around you on Facebook.",
+    "size": 89,
+    "reviews": 85674000,
+    "ratingAvg": 3.9,
+    "downloads": 3500000000,
+    "ratings": [
+      { "name": "1 star", "count": 6850000 },
+      { "name": "2 star", "count": 5140000 },
+      { "name": "3 star", "count": 17130000 },
+      { "name": "4 star", "count": 25690000 },
+      { "name": "5 star", "count": 30830000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/bYtqbOcTYOlgc6gqZ2rwb8lptHuwlNE75zYJu6Bn076-hTmvd96HH-6v7S0YUAAJXoJN",
+    "title": "TikTok",
+    "companyName": "TikTok Pte. Ltd.",
+    "id": 9,
+    "description": "TikTok is THE destination for mobile videos. On TikTok, short-form videos are exciting, spontaneous, and genuine.",
+    "size": 234,
+    "reviews": 76543000,
+    "ratingAvg": 4.3,
+    "downloads": 2000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1530000 },
+      { "name": "2 star", "count": 765000 },
+      { "name": "3 star", "count": 7650000 },
+      { "name": "4 star", "count": 15300000 },
+      { "name": "5 star", "count": 51660000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/N0UxhBVUmx8s7y3F7Kq0naYhUxWx8h1t_3aZ5d2L2e6e9y9m9l2yJm6y5Q5b5t5v5v5",
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "id": 10,
+    "description": "Navigate your world faster and easier with Google Maps. Over 220 countries and territories mapped and hundreds of millions of businesses and places on the map.",
+    "size": 112,
+    "reviews": 43210000,
+    "ratingAvg": 4.7,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 432000 },
+      { "name": "2 star", "count": 216000 },
+      { "name": "3 star", "count": 2160000 },
+      { "name": "4 star", "count": 8640000 },
+      { "name": "5 star", "count": 31940000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/6jA3FzSENbPSV3gCTWC0h0bOcRqFgSJBDa70MZ_CIBnT_3i_IHbHiXSQE1Oj-8XpSg",
+    "title": "Microsoft Word",
+    "companyName": "Microsoft Corporation",
+    "id": 11,
+    "description": "Create, edit, and share documents with the Microsoft Word app. Work together in real time with others on your documents.",
+    "size": 345,
+    "reviews": 28765000,
+    "ratingAvg": 4.6,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 287000 },
+      { "name": "2 star", "count": 143000 },
+      { "name": "3 star", "count": 1430000 },
+      { "name": "4 star", "count": 5750000 },
+      { "name": "5 star", "count": 21250000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/9JINg8xKuu6-q1rLk7JABd_e9Pv1g1sQ9y9Z9Z9Z9Z9Z9Z9Z9Z9Z9Z9Z9Z9Z9Z9Z9Z9Z",
+    "title": "Adobe Acrobat Reader",
+    "companyName": "Adobe",
+    "id": 12,
+    "description": "The world's best PDF viewer and editor with more than 635 million installs. View, sign, comment on, and share PDFs for free.",
+    "size": 267,
+    "reviews": 19876000,
+    "ratingAvg": 4.4,
+    "downloads": 800000000,
+    "ratings": [
+      { "name": "1 star", "count": 397000 },
+      { "name": "2 star", "count": 198000 },
+      { "name": "3 star", "count": 1980000 },
+      { "name": "4 star", "count": 3970000 },
+      { "name": "5 star", "count": 13350000 }
+    ]
+  }
+]
