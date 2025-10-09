@@ -14,7 +14,7 @@ const Navbar = () => {
                             <NavLink to={'/Installation'}>Installation</NavLink>
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl text-purple-400"> <img className='w-9' src={logo} /> HERO.IO</a>
+                    <NavLink className={'mx-4'} to={'/'}><a className="btn btn-ghost text-xl text-purple-400"> <img className='w-9' src={logo} /> HERO.IO</a></NavLink>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">

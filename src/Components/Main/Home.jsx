@@ -8,8 +8,8 @@ const Home = () => {
         <div>
             <Banner></Banner>
             <section>
-                <div>
-                    <h1 className='text-4xl font-bold text-center'>Trending Apps</h1>
+                <div className='my-[40px]'>
+                    <h1 className='text-4xl font-bold text-center my-3'>Trending Apps</h1>
                     <p className='text-center'>Explore All Trending Apps on the Market developed by us</p>
                 </div>
                 <div className='flex justify-center items-center flex-col'>

@@ -7,6 +7,9 @@ import Root from './Components/main/root';
 import Home from './Components/Main/Home';
 import Cards from './Components/Cards/Cards';
 import Error from './Components/Main/Error';
+import CardInfo from './Components/Cards/CardInfo';
+import Installation from './Components/Cards/Installation';
+
 
 const router = createBrowserRouter([
   {
@@ -20,9 +23,11 @@ const router = createBrowserRouter([
       },
       {
         path: '/Installation',
+        Component: Installation,
       },
       {
-        path: '/AppDetails',
+        path: '/Apps/:id',
+        Component: CardInfo,
       },
       {
         path: '*',

@@ -1,11 +1,13 @@
 import React from 'react';
 import { Download, Star } from 'lucide-react';
+import CardInfo from './CardInfo';
+import { NavLink, useNavigate } from 'react-router';
 
 const Card = ({ card }) => {
   const { image, title, downloads, ratingAvg } = card;
-
+  const navigate = useNavigate();
   const cardClicker = () => {
-    console.log('Clicked:', card);
+    navigate(`/Apps/${card.id}`, {state: {card}})
   };
 
   return (
