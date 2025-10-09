@@ -1,218 +1,542 @@
 [
   {
-    "image": "https://play-lh.googleusercontent.com/1-hPxafOxdYpYZEOKzNIkSP43HXCNftVJVttoo4ucl7rsMASXW3Xr6GlXURCubE1tA",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBdcgkdcDy5z4PYGx_kDJB1AvvC_x1pCBbbQ&s",
+    "title": "ChatGPT",
+    "companyName": "OpenAI",
+    "id": 1,
+    "description": "AI conversational chatbot app used globally for various interactions and productivity tasks.",
+    "size": 120,
+    "reviews": 150000,
+    "ratingAvg": 4.7,
+    "downloads": 52000000,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 2000 },
+      { "name": "3 star", "count": 5000 },
+      { "name": "4 star", "count": 35000 },
+      { "name": "5 star", "count": 109000 }
+    ]
+  },
+  {
+    "image": "https://store-images.s-microsoft.com/image/apps.47495.13634052595610511.c45457c9-b4af-46b0-8e61-8d7c0aec3f56.a8b71481-8a43-465d-88d6-e63add92c112",
+    "title": "TikTok",
+    "companyName": "ByteDance",
+    "id": 2,
+    "description": "Popular video-sharing social networking app with millions of short videos uploaded daily.",
+    "size": 150,
+    "reviews": 180000,
+    "ratingAvg": 4.5,
+    "downloads": 39000000,
+    "ratings": [
+      { "name": "1 star", "count": 6000 },
+      { "name": "2 star", "count": 4000 },
+      { "name": "3 star", "count": 7000 },
+      { "name": "4 star", "count": 42000 },
+      { "name": "5 star", "count": 120000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg",
+    "title": "Instagram",
+    "companyName": "Meta Platforms",
+    "id": 3,
+    "description": "Photo and video sharing social platform with features like Stories, Reels, and direct messaging.",
+    "size": 180,
+    "reviews": 160000,
+    "ratingAvg": 4.6,
+    "downloads": 38000000,
+    "ratings": [
+      { "name": "1 star", "count": 3500 },
+      { "name": "2 star", "count": 2500 },
+      { "name": "3 star", "count": 7000 },
+      { "name": "4 star", "count": 39000 },
+      { "name": "5 star", "count": 112000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/KCMTYuiTrKom4Vyf0G4foetVOwhKWzNbHWumV73IXexAIy5TTgZipL52WTt8ICL-oIo",
+    "title": "Facebook",
+    "companyName": "Meta Platforms",
+    "id": 4,
+    "description": "Social networking app that connects users with friends, family, and communities worldwide.",
+    "size": 200,
+    "reviews": 140000,
+    "ratingAvg": 4.2,
+    "downloads": 30000000,
+    "ratings": [
+      { "name": "1 star", "count": 8000 },
+      { "name": "2 star", "count": 7000 },
+      { "name": "3 star", "count": 15000 },
+      { "name": "4 star", "count": 54000 },
+      { "name": "5 star", "count": 60000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/bYtqbOcTYOlgc6gqZ2rwb8lptHuwlNE75zYJu6Bn076-hTmvd96HH-6v7S0YUAAJXoJN=w240-h480-rw",
+    "title": "WhatsApp",
+    "companyName": "Meta Platforms",
+    "id": 5,
+    "description": "Messaging app used globally to send text, voice messages, images, and video calls.",
+    "size": 100,
+    "reviews": 130000,
+    "ratingAvg": 4.6,
+    "downloads": 27000000,
+    "ratings": [
+      { "name": "1 star", "count": 2500 },
+      { "name": "2 star", "count": 1800 },
+      { "name": "3 star", "count": 6000 },
+      { "name": "4 star", "count": 39000 },
+      { "name": "5 star", "count": 84000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Temu_logo_icon.svg/1200px-Temu_logo_icon.svg.png",
+    "title": "Temu",
+    "companyName": "Temu Inc.",
+    "id": 6,
+    "description": "Shopping app offering a wide variety of products at competitive prices with fast delivery.",
+    "size": 140,
+    "reviews": 90000,
+    "ratingAvg": 4.3,
+    "downloads": 26000000,
+    "ratings": [
+      { "name": "1 star", "count": 4500 },
+      { "name": "2 star", "count": 3200 },
+      { "name": "3 star", "count": 8000 },
+      { "name": "4 star", "count": 29000 },
+      { "name": "5 star", "count": 45000 }
+    ]
+  },
+  {
+    "image": "https://m.media-amazon.com/images/I/21Nd1a0j87L.jpg",
+    "title": "CapCut",
+    "companyName": "Bytedance",
+    "id": 7,
+    "description": "Video editing app popular for creating short and social media videos easily.",
+    "size": 110,
+    "reviews": 85000,
+    "ratingAvg": 4.4,
+    "downloads": 23000000,
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "3 star", "count": 5500 },
+      { "name": "4 star", "count": 31000 },
+      { "name": "5 star", "count": 46500 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/01/Threads_%28app%29.svg",
+    "title": "Threads",
+    "companyName": "Meta Platforms",
+    "id": 8,
+    "description": "Text-based social network app designed to share updates and interact with close communities.",
+    "size": 90,
+    "reviews": 70000,
+    "ratingAvg": 4.1,
+    "downloads": 23000000,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 2500 },
+      { "name": "3 star", "count": 6000 },
+      { "name": "4 star", "count": 26000 },
+      { "name": "5 star", "count": 13500 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Telegram_2019_Logo.svg/800px-Telegram_2019_Logo.svg.png",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "id": 9,
+    "description": "Cloud-based instant messaging app with focus on speed and security.",
+    "size": 105,
+    "reviews": 75000,
+    "ratingAvg": 4.5,
+    "downloads": 20000000,
+    "ratings": [
+      { "name": "1 star", "count": 1500 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 5000 },
+      { "name": "4 star", "count": 27000 },
+      { "name": "5 star", "count": 41000 }
+    ]
+  },
+  {
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b9/c4/da/b9c4da8d-25cf-cd21-38ae-f37883457abe/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/230x0w.webp",
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "id": 10,
+    "description": "Multimedia messaging app popular among younger audience for ephemeral messages and stories.",
+    "size": 140,
+    "reviews": 68000,
+    "ratingAvg": 4.3,
+    "downloads": 20000000,
+    "ratings": [
+      { "name": "1 star", "count": 3500 },
+      { "name": "2 star", "count": 2200 },
+      { "name": "3 star", "count": 7200 },
+      { "name": "4 star", "count": 18500 },
+      { "name": "5 star", "count": 24500 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/84/Spotify_icon.svg",
+    "title": "Spotify",
+    "companyName": "Spotify Ltd.",
+    "id": 11,
+    "description": "Music streaming service offering millions of songs, playlists, and podcasts.",
+    "size": 150,
+    "reviews": 123000,
+    "ratingAvg": 4.5,
+    "downloads": 25000000,
+    "ratings": [
+      { "name": "1 star", "count": 3500 },
+      { "name": "2 star", "count": 3200 },
+      { "name": "3 star", "count": 5300 },
+      { "name": "4 star", "count": 40000 },
+      { "name": "5 star", "count": 81500 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/YouTube_social_white_square_%282024%29.svg/800px-YouTube_social_white_square_%282024%29.svg.png",
     "title": "YouTube",
     "companyName": "Google LLC",
-    "id": 1,
-    "description": "Get the official YouTube app for Android phones and tablets. See what the world is watching from the hottest music videos to what's popular in gaming, fashion, beauty, news, learning and more.",
-    "size": 78,
-    "reviews": 98765000,
-    "ratingAvg": 4.4,
-    "downloads": 10000000000,
-    "ratings": [
-      { "name": "1 star", "count": 1975000 },
-      { "name": "2 star", "count": 987000 },
-      { "name": "3 star", "count": 9870000 },
-      { "name": "4 star", "count": 19740000 },
-      { "name": "5 star", "count": 67200000 }
-    ]
-  },
-  {
-    "image": "https://play-lh.googleusercontent.com/lMoItBgdPPVDJsNOVtP26EKHePkwBg-PkuY9NOrc-fumRtTFP4XhpUNk_22syN4Datc",
-    "title": "Netflix",
-    "companyName": "Netflix, Inc.",
-    "id": 2,
-    "description": "Watch TV shows and movies recommended just for you, including award-winning Netflix original series, movies, and documentaries.",
-    "size": 67,
-    "reviews": 65432000,
+    "id": 12,
+    "description": "Video sharing and streaming platform with billions of users worldwide.",
+    "size": 180,
+    "reviews": 200000,
     "ratingAvg": 4.6,
-    "downloads": 1000000000,
+    "downloads": 60000000,
     "ratings": [
-      { "name": "1 star", "count": 654000 },
-      { "name": "2 star", "count": 327000 },
-      { "name": "3 star", "count": 3270000 },
-      { "name": "4 star", "count": 13080000 },
-      { "name": "5 star", "count": 48150000 }
+      { "name": "1 star", "count": 4000 },
+      { "name": "2 star", "count": 3000 },
+      { "name": "3 star", "count": 8000 },
+      { "name": "4 star", "count": 52000 },
+      { "name": "5 star", "count": 115000 }
     ]
   },
   {
-    "image": "https://play-lh.googleusercontent.com/PCpXdbfUWxCWdDlET0C2xiK1PpRQqTp13h0X5t8yhcCA-DDZ7c6ep2qq73cO7q0mCw",
-    "title": "Zoom",
-    "companyName": "zoom.us",
-    "id": 3,
-    "description": "Stay connected wherever you go – start or join a secure meeting with flawless video and audio, instant screen sharing, and cross-platform instant messaging.",
-    "size": 234,
-    "reviews": 32145000,
-    "ratingAvg": 4.8,
-    "downloads": 500000000,
-    "ratings": [
-      { "name": "1 star", "count": 321000 },
-      { "name": "2 star", "count": 160000 },
-      { "name": "3 star", "count": 1600000 },
-      { "name": "4 star", "count": 6420000 },
-      { "name": "5 star", "count": 23770000 }
-    ]
-  },
-  {
-    "image": "https://play-lh.googleusercontent.com/7Ak4Ye7wNUtheIvSKnVgGL_O-ZWfzSRyGLg6NBpifUpQk9NLmR_f2L_6dG5S1arCkw",
-    "title": "Spotify: Music and Podcasts",
-    "companyName": "Spotify AB",
-    "id": 4,
-    "description": "With Spotify, you have access to a world of music. You can listen to artists and albums, or create your own playlist of your favorite songs.",
-    "size": 89,
-    "reviews": 29876000,
-    "ratingAvg": 4.5,
-    "downloads": 1000000000,
-    "ratings": [
-      { "name": "1 star", "count": 298000 },
-      { "name": "2 star", "count": 149000 },
-      { "name": "3 star", "count": 1490000 },
-      { "name": "4 star", "count": 5970000 },
-      { "name": "5 star", "count": 22050000 }
-    ]
-  },
-  {
-    "image": "https://play-lh.googleusercontent.com/aFWiT2lTa9inbAwCVjtm8u4n1z-aRxd1W2g4XN7x-x4xhwg4xZA0t_udkGd-u3jqCw",
-    "title": "Amazon Shopping",
-    "companyName": "Amazon Mobile LLC",
-    "id": 5,
-    "description": "Shop millions of products, manage your orders, track packages, and more with the Amazon app.",
-    "size": 145,
-    "reviews": 54321000,
-    "ratingAvg": 4.0,
-    "downloads": 1500000000,
-    "ratings": [
-      { "name": "1 star", "count": 2710000 },
-      { "name": "2 star", "count": 1630000 },
-      { "name": "3 star", "count": 5430000 },
-      { "name": "4 star", "count": 16290000 },
-      { "name": "5 star", "count": 28300000 }
-    ]
-  },
-  {
-    "image": "https://play-lh.googleusercontent.com/UrY7BAZ-XfXGpfkeWg0zCCeo-7ras4DCoRalCWWXXzK7tQzQuhZ4XCfUEhw3g",
-    "title": "WhatsApp Messenger",
-    "companyName": "WhatsApp Inc",
-    "id": 6,
-    "description": "Simple. Reliable. Secure. With WhatsApp, you'll get fast, simple, secure messaging and calling for free*, available on phones all over the world.",
-    "size": 78,
-    "reviews": 125430000,
-    "ratingAvg": 4.2,
-    "downloads": 5000000000,
-    "ratings": [
-      { "name": "1 star", "count": 5020000 },
-      { "name": "2 star", "count": 3765000 },
-      { "name": "3 star", "count": 12550000 },
-      { "name": "4 star", "count": 25100000 },
-      { "name": "5 star", "count": 79420000 }
-    ]
-  },
-  {
-    "image": "https://play-lh.googleusercontent.com/Kf8WTct65hFJxBUDm5E-EpYsiDoLQiGGbnuyP6HBNax43YShXti9THPon1YKB6zPYpA",
-    "title": "Instagram",
-    "companyName": "Instagram",
-    "id": 7,
-    "description": "Connect with friends, share what you're up to, or see what's new from others all over the world.",
-    "size": 56,
-    "reviews": 98765000,
-    "ratingAvg": 4.1,
-    "downloads": 4000000000,
-    "ratings": [
-      { "name": "1 star", "count": 3950000 },
-      { "name": "2 star", "count": 2960000 },
-      { "name": "3 star", "count": 9870000 },
-      { "name": "4 star", "count": 19740000 },
-      { "name": "5 star", "count": 62230000 }
-    ]
-  },
-  {
-    "image": "https://play-lh.googleusercontent.com/jClnXThwYmt6Y0yrY0DG7xMw_cK2Y2WdpbEa2z9fGDkDpXpQp8y-6kF8YhN8y6q1Q",
-    "title": "Facebook",
-    "companyName": "Meta Platforms, Inc.",
-    "id": 8,
-    "description": "Connect with friends and the world around you on Facebook.",
-    "size": 89,
-    "reviews": 85674000,
-    "ratingAvg": 3.9,
-    "downloads": 3500000000,
-    "ratings": [
-      { "name": "1 star", "count": 6850000 },
-      { "name": "2 star", "count": 5140000 },
-      { "name": "3 star", "count": 17130000 },
-      { "name": "4 star", "count": 25690000 },
-      { "name": "5 star", "count": 30830000 }
-    ]
-  },
-  {
-    "image": "https://play-lh.googleusercontent.com/bYtqbOcTYOlgc6gqZ2rwb8lptHuwlNE75zYJu6Bn076-hTmvd96HH-6v7S0YUAAJXoJN",
-    "title": "TikTok",
-    "companyName": "TikTok Pte. Ltd.",
-    "id": 9,
-    "description": "TikTok is THE destination for mobile videos. On TikTok, short-form videos are exciting, spontaneous, and genuine.",
-    "size": 234,
-    "reviews": 76543000,
-    "ratingAvg": 4.3,
-    "downloads": 2000000000,
-    "ratings": [
-      { "name": "1 star", "count": 1530000 },
-      { "name": "2 star", "count": 765000 },
-      { "name": "3 star", "count": 7650000 },
-      { "name": "4 star", "count": 15300000 },
-      { "name": "5 star", "count": 51660000 }
-    ]
-  },
-  {
-    "image": "https://play-lh.googleusercontent.com/N0UxhBVUmx8s7y3F7Kq0naYhUxWx8h1t_3aZ5d2L2e6e9y9m9l2yJm6y5Q5b5t5v5v5",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Google_Maps_icon_%282020%29.svg",
     "title": "Google Maps",
     "companyName": "Google LLC",
-    "id": 10,
-    "description": "Navigate your world faster and easier with Google Maps. Over 220 countries and territories mapped and hundreds of millions of businesses and places on the map.",
-    "size": 112,
-    "reviews": 43210000,
-    "ratingAvg": 4.7,
-    "downloads": 10000000000,
+    "id": 13,
+    "description": "Navigation app providing real-time GPS, traffic, and place information.",
+    "size": 160,
+    "reviews": 110000,
+    "ratingAvg": 4.5,
+    "downloads": 48000000,
     "ratings": [
-      { "name": "1 star", "count": 432000 },
-      { "name": "2 star", "count": 216000 },
-      { "name": "3 star", "count": 2160000 },
-      { "name": "4 star", "count": 8640000 },
-      { "name": "5 star", "count": 31940000 }
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 1800 },
+      { "name": "3 star", "count": 5500 },
+      { "name": "4 star", "count": 42000 },
+      { "name": "5 star", "count": 60000 }
     ]
   },
   {
-    "image": "https://play-lh.googleusercontent.com/6jA3FzSENbPSV3gCTWC0h0bOcRqFgSJBDa70MZ_CIBnT_3i_IHbHiXSQE1Oj-8XpSg",
-    "title": "Microsoft Word",
-    "companyName": "Microsoft Corporation",
-    "id": 11,
-    "description": "Create, edit, and share documents with the Microsoft Word app. Work together in real time with others on your documents.",
-    "size": 345,
-    "reviews": 28765000,
-    "ratingAvg": 4.6,
-    "downloads": 1000000000,
-    "ratings": [
-      { "name": "1 star", "count": 287000 },
-      { "name": "2 star", "count": 143000 },
-      { "name": "3 star", "count": 1430000 },
-      { "name": "4 star", "count": 5750000 },
-      { "name": "5 star", "count": 21250000 }
-    ]
-  },
-  {
-    "image": "https://play-lh.googleusercontent.com/9JINg8xKuu6-q1rLk7JABd_e9Pv1g1sQ9y9Z9Z9Z9Z9Z9Z9Z9Z9Z9Z9Z9Z9Z9Z9Z9Z9Z",
-    "title": "Adobe Acrobat Reader",
-    "companyName": "Adobe",
-    "id": 12,
-    "description": "The world's best PDF viewer and editor with more than 635 million installs. View, sign, comment on, and share PDFs for free.",
-    "size": 267,
-    "reviews": 19876000,
+    "image": "https://m.media-amazon.com/images/I/31epF-8N9LL.png",
+    "title": "Amazon Shopping",
+    "companyName": "Amazon",
+    "id": 14,
+    "description": "Online shopping app with millions of products and fast shipping options.",
+    "size": 140,
+    "reviews": 98000,
     "ratingAvg": 4.4,
-    "downloads": 800000000,
+    "downloads": 45000000,
     "ratings": [
-      { "name": "1 star", "count": 397000 },
-      { "name": "2 star", "count": 198000 },
-      { "name": "3 star", "count": 1980000 },
-      { "name": "4 star", "count": 3970000 },
-      { "name": "5 star", "count": 13350000 }
+      { "name": "1 star", "count": 4000 },
+      { "name": "2 star", "count": 3500 },
+      { "name": "3 star", "count": 9500 },
+      { "name": "4 star", "count": 37000 },
+      { "name": "5 star", "count": 43000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Google_Chrome_icon_%28February_2022%29.svg/1200px-Google_Chrome_icon_%28February_2022%29.svg.png",
+    "title": "Google Chrome",
+    "companyName": "Google LLC",
+    "id": 15,
+    "description": "Popular web browser known for speed, security, and seamless Google integration.",
+    "size": 130,
+    "reviews": 75000,
+    "ratingAvg": 4.4,
+    "downloads": 70000000,
+    "ratings": [
+      { "name": "1 star", "count": 2800 },
+      { "name": "2 star", "count": 2200 },
+      { "name": "3 star", "count": 4000 },
+      { "name": "4 star", "count": 28000 },
+      { "name": "5 star", "count": 37400 }
+    ]
+  },
+  {
+    "image": "https://img.utdstc.com/icon/b39/6f7/b396f720a7eac6d988e7ef38efcb49028e9d99c54598d7033dc6fe8f2279dfd9:200",
+    "title": "Waze",
+    "companyName": "Google LLC",
+    "id": 16,
+    "description": "Community-driven GPS navigation app with real-time traffic and road alerts.",
+    "size": 95,
+    "reviews": 40000,
+    "ratingAvg": 4.5,
+    "downloads": 22000000,
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 3500 },
+      { "name": "4 star", "count": 11500 },
+      { "name": "5 star", "count": 11000 }
+    ]
+  },
+  {
+    "image": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxtPV1zYJfBPveATOCg5xpTusn.7._fPw5CYPvOiIZfkLoYIT3UjtJ448OhRmygnycMC6EukmwgMdy_xTc_tNl2o-&format=source",
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications",
+    "id": 17,
+    "description": "Video conferencing app widely used for work meetings, webinars, and social connections.",
+    "size": 120,
+    "reviews": 90000,
+    "ratingAvg": 4.3,
+    "downloads": 39000000,
+    "ratings": [
+      { "name": "1 star", "count": 4000 },
+      { "name": "2 star", "count": 3200 },
+      { "name": "3 star", "count": 6000 },
+      { "name": "4 star", "count": 32000 },
+      { "name": "5 star", "count": 44000 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRokEYt0yyh6uNDKL8uksVLlhZ35laKNQgZ9g&s",
+    "title": "LinkedIn",
+    "companyName": "Microsoft",
+    "id": 18,
+    "description": "Professional networking platform to connect jobs, companies, and professionals worldwide.",
+    "size": 150,
+    "reviews": 65000,
+    "ratingAvg": 4.2,
+    "downloads": 21000000,
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 1700 },
+      { "name": "3 star", "count": 4000 },
+      { "name": "4 star", "count": 20000 },
+      { "name": "5 star", "count": 18200 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Netflix_2015_N_logo.svg",
+    "title": "Netflix",
+    "companyName": "Netflix, Inc.",
+    "id": 19,
+    "description": "Streaming app with a vast library of TV shows, movies, and original content.",
+    "size": 160,
+    "reviews": 110000,
+    "ratingAvg": 4.4,
+    "downloads": 34000000,
+    "ratings": [
+      { "name": "1 star", "count": 3200 },
+      { "name": "2 star", "count": 2800 },
+      { "name": "3 star", "count": 7000 },
+      { "name": "4 star", "count": 38000 },
+      { "name": "5 star", "count": 47000 }
+    ]
+  },
+  {
+    "image": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxsG72wAo9EWJR4yQWyJJaDaK1XdUso6cUMpI9hAdPUU_FNs11cY1X284vsHrnWtRw7oqRpN1m9YAg21d_aNKnIo-&format=source&h=210",
+    "title": "Discord",
+    "companyName": "Discord Inc.",
+    "id": 20,
+    "description": "VoIP and chat app for communities, gamers, and groups to communicate seamlessly.",
+    "size": 130,
+    "reviews": 78000,
+    "ratingAvg": 4.5,
+    "downloads": 27000000,
+    "ratings": [
+      { "name": "1 star", "count": 1500 },
+      { "name": "2 star", "count": 1300 },
+      { "name": "3 star", "count": 5000 },
+      { "name": "4 star", "count": 23000 },
+      { "name": "5 star", "count": 27700 }
+    ]
+  },
+  {
+    "image": "https://store-images.s-microsoft.com/image/apps.15970.14375561300249796.05fe8c27-ce9e-4144-8702-0e81e2f575b1.042364cb-b745-4796-a520-61291e2dd6b9",
+    "title": "Reddit",
+    "companyName": "Reddit Inc.",
+    "id": 21,
+    "description": "Social news aggregation and discussion platform with vibrant communities.",
+    "size": 110,
+    "reviews": 72000,
+    "ratingAvg": 4.2,
+    "downloads": 19000000,
+    "ratings": [
+      { "name": "1 star", "count": 3200 },
+      { "name": "2 star", "count": 2300 },
+      { "name": "3 star", "count": 5600 },
+      { "name": "4 star", "count": 20000 },
+      { "name": "5 star", "count": 22000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Google_Drive_icon_%282020%29.svg/800px-Google_Drive_icon_%282020%29.svg.png",
+    "title": "Google Drive",
+    "companyName": "Google LLC",
+    "id": 22,
+    "description": "Cloud storage and file backup service with seamless integration to Google Workspace.",
+    "size": 140,
+    "reviews": 68000,
+    "ratingAvg": 4.4,
+    "downloads": 26000000,
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "3 star", "count": 4200 },
+      { "name": "4 star", "count": 18000 },
+      { "name": "5 star", "count": 25500 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/xOKbvDt362x1uzW-nnggP-PgO9HM4L1vwBl5HgHFHy_n1X3mqeBtOSoIyNJzTS3rrj70",
+    "title": "PayPal",
+    "companyName": "PayPal Holdings, Inc.",
+    "id": 23,
+    "description": "Digital payments platform for sending money, shopping, and managing finances securely.",
+    "size": 115,
+    "reviews": 70000,
+    "ratingAvg": 4.3,
+    "downloads": 24000000,
+    "ratings": [
+      { "name": "1 star", "count": 1800 },
+      { "name": "2 star", "count": 1300 },
+      { "name": "3 star", "count": 4200 },
+      { "name": "4 star", "count": 22000 },
+      { "name": "5 star", "count": 20300 }
+    ]
+  },
+  {
+    "image": "data:image/png;base64,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",
+    "title": "Google Photos",
+    "companyName": "Google LLC",
+    "id": 24,
+    "description": "Photo storage, sharing, and editing app powered by AI and Google cloud services.",
+    "size": 130,
+    "reviews": 72000,
+    "ratingAvg": 4.5,
+    "downloads": 28000000,
+    "ratings": [
+      { "name": "1 star", "count": 1400 },
+      { "name": "2 star", "count": 1600 },
+      { "name": "3 star", "count": 4300 },
+      { "name": "4 star", "count": 21000 },
+      { "name": "5 star", "count": 26000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/b1-MIBjlMD9kvl0Okeglm9BL9ejRpOXMio303W0tiLb8Ul5WuVzBDoDKgGRcALOsCdw=w240-h480-rw",
+    "title": "Dropbox",
+    "companyName": "Dropbox, Inc.",
+    "id": 25,
+    "description": "File hosting service for cloud storage, file synchronization, and personal cloud.",
+    "size": 125,
+    "reviews": 54000,
+    "ratingAvg": 4.2,
+    "downloads": 16000000,
+    "ratings": [
+      { "name": "1 star", "count": 1600 },
+      { "name": "2 star", "count": 1400 },
+      { "name": "3 star", "count": 3500 },
+      { "name": "4 star", "count": 16000 },
+      { "name": "5 star", "count": 17500 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/0_QYmlunQGP8CxOa1s_e06y_LqDgUb1vl_-bqMNsPEDjXp4PCq0X9PNtw5OVE3lahMjY=w240-h480-rw",
+    "title": "Adobe Photoshop Express",
+    "companyName": "Adobe Inc.",
+    "id": 26,
+    "description": "Mobile photo editing app with filters, effects, and advanced editing tools.",
+    "size": 105,
+    "reviews": 47000,
+    "ratingAvg": 4.3,
+    "downloads": 15000000,
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 3200 },
+      { "name": "4 star", "count": 15500 },
+      { "name": "5 star", "count": 22500 }
+    ]
+  },
+  {
+    "image": "https://pentagram-production.imgix.net/618d5092-a542-4dae-bd27-a3afb4bcc12d/mb_slack_01.jpg?auto=compress%2Cformat&fit=min&fm=jpg&q=80&rect=0%2C74%2C3000%2C1872&w=880&fit=crop&fm=jpg&q=70&auto=format&h=548",
+    "title": "Slack",
+    "companyName": "Slack Technologies",
+    "id": 27,
+    "description": "Collaboration hub for work teams integrating messaging, tools, and files.",
+    "size": 110,
+    "reviews": 48000,
+    "ratingAvg": 4.2,
+    "downloads": 18000000,
+    "ratings": [
+      { "name": "1 star", "count": 1100 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 3500 },
+      { "name": "4 star", "count": 12500 },
+      { "name": "5 star", "count": 27900 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Google_News_icon.svg/120px-Google_News_icon.svg.png",
+    "title": "Google News",
+    "companyName": "Google LLC",
+    "id": 28,
+    "description": "Personalized news aggregator app serving relevant news from various sources.",
+    "size": 95,
+    "reviews": 45000,
+    "ratingAvg": 4.3,
+    "downloads": 17000000,
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 1050 },
+      { "name": "3 star", "count": 2800 },
+      { "name": "4 star", "count": 11900 },
+      { "name": "5 star", "count": 18250 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Amazon_Alexa_Logo_2024.svg/1024px-Amazon_Alexa_Logo_2024.svg.png",
+    "title": "Amazon Alexa",
+    "companyName": "Amazon",
+    "id": 29,
+    "description": "Voice assistant app to control smart home devices and access information using Alexa voice commands.",
+    "size": 120,
+    "reviews": 46000,
+    "ratingAvg": 4.1,
+    "downloads": 19000000,
+    "ratings": [
+      { "name": "1 star", "count": 1600 },
+      { "name": "2 star", "count": 1300 },
+      { "name": "3 star", "count": 3500 },
+      { "name": "4 star", "count": 11500 },
+      { "name": "5 star", "count": 15700 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Google_Pay_Logo.svg/1280px-Google_Pay_Logo.svg.png",
+    "title": "Google Pay",
+    "companyName": "Google LLC",
+    "id": 30,
+    "description": "Secure payment app supporting contactless payments and peer-to-peer money transfers.",
+    "size": 100,
+    "reviews": 37000,
+    "ratingAvg": 4.3,
+    "downloads": 16000000,
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 2200 },
+      { "name": "4 star", "count": 9500 },
+      { "name": "5 star", "count": 16300 }
     ]
   }
 ]
