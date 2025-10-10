@@ -5,11 +5,13 @@ import AppsNotFound from './AppsNotFound';
 import downImage from '../../assets/down.png';
 import starImage from '../../assets/bigStar.png';
 import reviewImage from '../../assets/review.png';
+import Swal from 'sweetalert2'
+import withReactContent from 'sweetalert2-react-content'
 
 const CardInfo = () => {
     const location = useLocation();
     const card = location.state?.card;
-
+    const MySwal = withReactContent(Swal)
     if (!card) {
         return <AppsNotFound />;
     }
@@ -19,12 +21,16 @@ const CardInfo = () => {
     const alreadyInstalled = oldInstall.some(item => item.id === card.id);
 
     const installer = () => {
-        if (alreadyInstalled) {
-            alert(`${card.title} is already installed.`);
-            return;
-        }
+        MySwal.fire({
+            title: "Installed!",
+            text: "You clicked the button!",
+            icon: "success"
+        }).then((result) => {
+            if (result.isConfirmed) {
+                window.location.reload();
+            }
+        });
 
-        alert(`${card.title} is installed.`);
 
         const newInstall = [...oldInstall, card];
         localStorage.setItem('cards', JSON.stringify(newInstall));
@@ -66,9 +72,8 @@ const CardInfo = () => {
 
                     <button
                         onClick={installer}
-                        className={`w-full ${
-                            alreadyInstalled ? 'bg-gray-500 cursor-not-allowed' : 'bg-blue-600 hover:bg-blue-700'
-                        } text-white font-semibold py-3 px-6 rounded-lg transition duration-200`}
+                        className={`w-full ${alreadyInstalled ? 'bg-gray-500 cursor-not-allowed' : 'bg-blue-600 hover:bg-blue-700'
+                            } text-white font-semibold py-3 px-6 rounded-lg transition duration-200`}
                         disabled={alreadyInstalled}
                     >
                         {alreadyInstalled ? 'Installed' : `Install Now (${size} MB)`}

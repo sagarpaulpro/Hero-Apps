@@ -1,17 +1,32 @@
 import React, { useState } from 'react';
 import star from '../../assets/star.png';
 import downloadImage from '../../assets/download-logo.png';
+import Swal from 'sweetalert2'
+import withReactContent from 'sweetalert2-react-content'
+
 
 const Installation = () => {
     const saved = localStorage.getItem('cards');
     const initialApps = saved ? JSON.parse(saved) : [];
     const [installedApps, setInstalledApps] = useState(initialApps);
     const [sortType, setSortType] = useState('');
+    const MySwal = withReactContent(Swal)
 
     const handleUninstall = (id) => {
         const updatedApps = installedApps.filter(app => app.id !== id);
         setInstalledApps(updatedApps);
         localStorage.setItem('cards', JSON.stringify(updatedApps));
+        MySwal.fire({
+            title: "Uninstalled!",
+            text: "You clicked the button!",
+            icon: "success"
+        }).then((result) => {
+            if (result.isConfirmed) {
+                window.location.reload();
+            }
+        });
+
+
     };
 
     const handleSort = (type) => {
